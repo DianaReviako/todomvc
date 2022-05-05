@@ -44,7 +44,7 @@ class HomePage extends BaseForm {
   }
 
   async isCheckboxCompleteTodoSelected(todoText){
-    console.log('Hello')
+    console.log('Hello!!!!!!!!!!!!!!!!!!')
     return elements.checkboxCompleteTodo(todoText).isSelected();
   }
 
