@@ -39,6 +39,7 @@ module.exports = class BaseElement {
     }
 
     async moveTo() {
+        console.log('Have a good day!')
         Logger.info(`Move to "${this.name}"`);
         return (await $(this.locator)).moveTo();
     }
