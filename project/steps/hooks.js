@@ -1,6 +1,6 @@
 const { ENVIRONMENT } = require('../../enviroment/envConfig');
 const env = require(`../../enviroment/${ENVIRONMENT}Enviroment`);
-const { AfterStep, Before } = require('@cucumber/cucumber');
+const { Before } = require('@cucumber/cucumber');
 const Logger = require('../../framework/utils/logger');
 
 Before(async() => {
